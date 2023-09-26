@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Registro de Tarefas</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="listaTarefas.html">Lista de Tarefas</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Registro de Tarefas</h1>
+        <form id="tarefas_form">
+            <label for="tarefa">Tarefa:</label>
+            <input type="text" id="tarefa" name="tarefa" required>
+            
+            <label for="data">Data da Tarefa:</label>
+            <input type="date" id="data" name="data" required>
+            
+            <label for="descricao">Descrição Detalhada:</label>
+            <textarea id="descricao" name="descricao" required></textarea>
+            
+            <button type="submit">Registrar Tarefa</button>
+        </form>
+    </main>
+    
+    <script src="script.js"></script>
+   
+</body>
+</html>
