@@ -2,10 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #333;
+    color: #ffff;
 }
 
 header {
-    background-color: #8b8989;
+    background-color: #065377;
     color: white;
     padding: 10px;
 }
@@ -25,6 +27,10 @@ nav ul li {
 
 a {
     text-decoration: none;
+}
+
+a:visited {
+    color: #ffff;
 }
 
 main {
@@ -51,7 +57,7 @@ textarea {
 }
 
 button {
-    background-color: #333;
+    background-color: #065377;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -59,7 +65,7 @@ button {
 }
 
 button:hover {
-    background-color: #555;
+    background-color: #03344b;
 }
 
 ul#task-list {
@@ -71,4 +77,21 @@ ul#task-list li {
     border: 1px solid #ccc;
     padding: 10px;
     margin-bottom: 10px;
+}
+
+.botao__voltar {
+    margin-left: 25px;
+    margin-top: 32px;
+    background-color: #065377;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+td {
+    margin: 5% 5%;
+    padding-left: 30px;
+    text-align: left;
 }
